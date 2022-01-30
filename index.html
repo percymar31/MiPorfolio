@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/75365595c4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body class="dark">
+
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme"
+          class="toggle-theme_icon">
+          <p id="toggle-text" class="toggle-theme_text">Dark Mode</p>
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flags_item" data-language="es">
+          <img src="assets/icons/es.svg" alt="">
+        </div>
+        <div class="flags_item" data-language="gb">
+          <img src="assets/icons/gb.svg" alt="">
+        </div>
+        <div class="flags_item" data-language="pe">
+          <img src="assets/icons/pe.svg" alt="">
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors_item colors_item--blue"></div>
+
+        <div data-color="hsl(150, 84%, 56%)" class="colors_item colors_item--green"></div>
+
+        <div data-color="hsl(276, 84%, 56%)" class="colors_item colors_item--purple"></div>
+
+        <div data-color="hsl(46, 84%, 56%)" class="colors_item colors_item--orange"></div>    
+      </div>
+    </header>
+
+    <main class="main">
+
+      <!--Parte Izquierda del Main-->
+
+      <section class="column column-left">
+
+        <!-- Profile Card-->
+
+        <article class="card card-profile">
+          <div class="card_image-container">
+            <img src="assets/images/Profile1.jpg" alt="">
+          </div>
+          <div class="card_header">
+            <h2 class="card_title no-margin">Percito</h2>
+            <p class="card_subtitle" data-section="profile" data-value="rol">Desarrollador Web</p>
+          </div>
+          <div class="card_body">
+            <div class="card_link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:percymar31@yahoo.es">percymar31@yahoo.es</a>
+            </div>
+            <div class="card_link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:984441004">+51-984441004</a>
+            </div>
+            <p class="card_text" data-section="profile" data-value="description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+          </div>
+        </article>
+
+        <!--Trabajos o EXperiencie-->
+
+        <article class="card card-experience">
+          <h2 class="card_title">Experiencia</h2>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience_image">
+            <div class="experience_info">
+              <p class="experience_time"
+              data-section="experience" data-value="first-job-dates">
+                Feb 2018 - Currente
+              </p>
+              <h3 class="experience_job"
+              data-section="experience" data-value="first-job-title">Front End Developer</h3>
+              <p class="experience_description"
+              data-section="experience" data-value="first-job-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience_image">
+            <div class="experience_info">
+              <p class="experience_time"
+              data-section="experience" data-value="second-job-dates">
+                Jul 2019 - Currente
+              </p>
+              <h3 class="experience_job"
+              data-section="experience" data-value="second-job-title">Html</h3>
+              <p class="experience_description"
+              data-section="experience" data-value="second-job-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience_image">
+            <div class="experience_info">
+              <p class="experience_time"
+              data-section="experience" data-value="last-job-dates">
+                Dec 2017 - Currente
+              </p>
+              <h3 class="experience_job"
+              data-section="experience" data-value="last-job-title">Excel</h3>
+              <p class="experience_description"
+              data-section="experience" data-value="last-job-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+            </div>
+          </div>
+        </article>
+
+        <!--Hobbies-->
+        
+        <article class="card card-hobiies">
+          <div class="card_title">Hobbies</div>
+          <div class="card_image-container">
+            <img src="assets/images/hobbie.jpg" alt="Man on a bike">
+          </div>
+          <h3 class="hobbies_title">Biking</h3>
+          <p class="card_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+        </article>
+
+      </section>
+
+      <!--Parte Derecha del Main-->
+
+      <section class="column column-right">
+
+        <!--Los Skills-->
+
+        <article class="card">
+          <h2 class="card_title">Front End</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills">
+            <div class="skills_header">
+              <span class="skills_start-level">0</span>
+              <span class="skills_start-level">5</span>
+            </div>            
+            <div class="skills_item">
+              <p class="skills_tech">HTML</p>
+              <div class="skills_bar skills_bar-80"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">CSS</p>
+              <div class="skills_bar skills_bar-90"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">JAVASCRIPT</p>
+              <div class="skills_bar skills_bar-60"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">PHP</p>
+              <div class="skills_bar skills_bar-30"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">REACT</p>
+              <div class="skills_bar skills_bar-20"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card_title">Desing</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills">
+            <div class="skills_header">
+              <span class="skills_start-level">0</span>
+              <span class="skills_start-level">3</span>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">PHOTOSHOP</p>
+              <div class="skills_bar skills_bar-80"></div>
+            </div>
+            <div class="skills_item">
+               <p class="skills_tech">ILUSTRATOR</p>
+              <div class="skills_bar skills_bar-50"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">FIGMA</p>
+              <div class="skills_bar skills_bar-30"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card_title">Multimendia</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills">
+            <div class="skills_header">
+              <span class="skills_start-level">0</span>
+              <span class="skills_start-level">4</span>
+            </div>
+            <div class="skills">
+              <div class="skills_item">
+                <p class="skills_tech">AFTER EFECTS</p>
+                <div class="skills_bar skills_bar-50"></div>
+              </div>
+              <div class="skills_item">
+                <p class="skills_tech">PREMIER</p>
+                <div class="skills_bar skills_bar-10"></div>
+              </div>
+              <div class="skills_item">
+                <p class="skills_tech">CAMTASIA 9</p>
+                <div class="skills_bar skills_bar-80"></div>
+              </div>
+            </div>
+        </article>
+
+        <!--Los Proeyectos-->
+
+        <article class="card card-project">
+          <div class="card_image-container">
+            <img src="assets/images/project.jpg" alt="Landing page" class="card_image"> 
+          </div>
+          <div class="project">
+            <div class="project_tags">
+              <span class="project_tag">#HTML</span>
+              <span class="project_tag">#CSS</span>
+              <span class="project_tag">#JAVASCRIPT</span>
+              <span class="project_tag">#RESPONSE</span>
+            </div>
+            <h2 class="card_title">Landing page</h2>
+            <p class="card_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+            <p class="card_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+            <div class="buttons">
+              <a href="#" class="button button-primary">Demo</a>
+              <a href="#" class="button button-ghost">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card-project">
+          <div class="card_image-container">
+            <img src="assets/images/project.jpg" alt="Landing page" class="card_image"> 
+          </div>
+          <div class="project">
+            <div class="project_tags">
+              <span class="project_tag">#PHOTOSHOP</span>
+              <span class="project_tag">#ILUSTRATOR</span>
+              <span class="project_tag">#FIGMA</span>
+            </div>
+            <h2 class="card_title">Landing page</h2>
+            <p class="card_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+            <p class="card_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+            <div class="buttons">
+              <a href="#" class="button button-primary">Demo</a>
+              <a href="#" class="button button-ghost">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card-project">
+          <div class="card_image-container">
+            <img src="assets/images/project.jpg" alt="Landing page" class="card_image"> 
+          </div>
+          <div class="project">
+            <div class="project_tags">
+              <span class="project_tag">#CAMTASIA 9</span>
+              <span class="project_tag">#AFTER EFFECTS</span>
+              <span class="project_tag">#PREMIER</span>
+            </div>
+            <h2 class="card_title">Landing page</h2>
+            <p class="card_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+            <p class="card_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+            <div class="buttons">
+              <a href="#" class="button button-primary">Demo</a>
+              <a href="#" class="button button-ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        
+      </section>
+    </main>
+
+    <script src="js/scripts.js"></script>
+  </body>
+
+</html>
+
